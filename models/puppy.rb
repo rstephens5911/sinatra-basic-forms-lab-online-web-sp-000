@@ -3,7 +3,7 @@ class Puppy
 
   DOGS = []
 
-  def initialize
+  def initialize(params)
     @name = name
     @breed = breed
     @months_old = months_old
