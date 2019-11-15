@@ -8,4 +8,6 @@ class App < Sinatra::Base
 
 
 end
-  
+  get '/views/create_puppy'
+  erb :'./views/create_puppy'
+end
